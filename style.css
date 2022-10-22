@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:chocolate;
+}
+
+#contador{
+    position: relative;
+}
+
+#num,
+#actions{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding-top: 50px;
+}
+
+#num{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine;
+    text-align: center;
+    font-size: 10em;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+#sub,
+#zerar,
+#add{
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#sub:hover{
+    background-color: red;
+    color: white;
+}
+
+#zerar:hover{
+    background-color: blue;
+    color: white;
+}
+
+#add:hover{
+    background-color: green;
+    color: white;
+}
